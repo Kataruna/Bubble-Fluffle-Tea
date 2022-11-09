@@ -789,6 +789,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1266260289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 912024757338311652, guid: d61938cacf2c2b343b964f6d16656972,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072347459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1266260290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266260289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d55124081b045542aef912e66a712a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerPress:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Trigger Press
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 3cee2dc4-9011-44dd-9181-5c45f997dcea
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  gripPress:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Grip Press
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 2994920f-8e24-4bca-8cfa-5a844557770b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  handAnimator: {fileID: 1266260291}
+--- !u!95 &1266260291 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 912024757330933842, guid: d61938cacf2c2b343b964f6d16656972,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072347459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1470015727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1051,57 @@ MonoBehaviour:
     m_Reference: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!1 &1561171642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2388783429680747748, guid: cd35f966d40bb784eb1e854ef6bb4981,
+    type: 3}
+  m_PrefabInstance: {fileID: 911259285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1561171643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561171642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d55124081b045542aef912e66a712a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerPress:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Trigger Press
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: fa580bc4-1672-469d-afea-838a4e035841
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  gripPress:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Grip Press
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 2a0cd152-55fb-45cd-82f0-2ffd7746ab20
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  handAnimator: {fileID: 1561171644}
+--- !u!95 &1561171644 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2388783429688010578, guid: cd35f966d40bb784eb1e854ef6bb4981,
+    type: 3}
+  m_PrefabInstance: {fileID: 911259285}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1767741812
 GameObject:
   m_ObjectHideFlags: 0

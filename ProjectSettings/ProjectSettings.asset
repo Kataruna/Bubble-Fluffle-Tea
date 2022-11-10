@@ -163,7 +163,7 @@ PlayerSettings:
     Standalone: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 0
+  overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
@@ -783,7 +783,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   scriptingDefineSymbols:
-    Standalone: LETAI_TRUESHADOW
+    Standalone: LETAI_TRUESHADOW;CHROMA_URP;CHROMA_SG
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

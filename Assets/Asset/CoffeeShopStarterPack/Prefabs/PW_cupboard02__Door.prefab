@@ -94,6 +94,9 @@ GameObject:
   - component: {fileID: 6195340763687922002}
   - component: {fileID: 4628441561628182648}
   - component: {fileID: 9125091175454092669}
+  - component: {fileID: 3841850950199307786}
+  - component: {fileID: 1171974176797148645}
+  - component: {fileID: 8223828506622356150}
   m_Layer: 0
   m_Name: cupboard
   m_TagString: Untagged
@@ -166,6 +169,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3841850950199307786
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200303738563432992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.394488, y: 1.0546942, z: 0.04428561}
+  m_Center: {x: 0, y: -0.022699391, z: -0.72732526}
+--- !u!65 &1171974176797148645
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200303738563432992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.394488, y: 1.1955154, z: 0.03214235}
+  m_Center: {x: 0, y: -0.000295518, z: -0.12997001}
+--- !u!65 &8223828506622356150
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200303738563432992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.394488, y: 1.1955154, z: 0.090474784}
+  m_Center: {x: 0, y: -0.00029551802, z: -1.3544852}
 --- !u!1 &2946511197009921946
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,6 +300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4328340159754806783}
+  - component: {fileID: 6660976916734957238}
   m_Layer: 0
   m_Name: PW_cupboard02__Door
   m_TagString: Untagged
@@ -281,5 +324,19 @@ Transform:
   - {fileID: 6293529453652678930}
   - {fileID: 9140987621628708472}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &6660976916734957238
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3988653105063296837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}

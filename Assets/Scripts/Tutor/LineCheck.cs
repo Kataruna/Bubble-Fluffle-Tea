@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using KevinCastejon.MoreAttributes;
 using UnityEngine;
 
 public class LineCheck : MonoBehaviour

@@ -107,7 +107,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: -4427534551421501743}
   - {fileID: -3581126888789254224}
-  m_RendererFeatureMap: d1bec097c83c8ec2b0df1d7a11484dce
+  - {fileID: 2847831857707684990}
+  m_RendererFeatureMap: d1bec097c83c8ec2b0df1d7a11484dce7e14b572fc878527
   m_UseNativeRenderPass: 1
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -163,3 +164,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 0
   settings: {fileID: 11400000, guid: a3b8f5fcfbc2945f0b4e2305a07e98d6, type: 2}
+  _effectMaterial: {fileID: 0}
+  _blitShader: {fileID: 0}
+--- !u!114 &2847831857707684990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cca7768aaaea4b0081f14e7f9d4b5ad, type: 3}
+  m_Name: FlatKitOutline
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings: {fileID: 11400000, guid: a9f00b29f9de2f64dbed22e6586fa186, type: 2}
+  _effectMaterial: {fileID: 0}
+  _blitShader: {fileID: 0}

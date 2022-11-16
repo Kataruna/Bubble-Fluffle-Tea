@@ -3399,6 +3399,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cupboard02__Handle
       objectReference: {fileID: 0}
+    - target: {fileID: 3078109664478131342, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.038
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078109664478131342, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685913946836842622, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685913946836842622, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410462035674341226, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: OnOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 5920484329902026283, guid: ac4ce4b4419d5ea4da57550b2632c7d9,
+        type: 3}
+    - target: {fileID: 4410462035674341226, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: OnOpen.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 5920484329902026283, guid: ac4ce4b4419d5ea4da57550b2632c7d9,
+        type: 3}
+    - target: {fileID: 6109104984767503155, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: OnOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 5920484329902026283, guid: ac4ce4b4419d5ea4da57550b2632c7d9,
+        type: 3}
+    - target: {fileID: 6109104984767503155, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: OnOpen.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 5920484329902026283, guid: ac4ce4b4419d5ea4da57550b2632c7d9,
+        type: 3}
     - target: {fileID: 7940950957552552720, guid: b93274c416ceb244e80c9345545d243e,
         type: 3}
       propertyPath: m_InteractionManager
@@ -4962,6 +5006,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tea
+      objectReference: {fileID: 0}
+    - target: {fileID: 5920484329902026283, guid: ac4ce4b4419d5ea4da57550b2632c7d9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

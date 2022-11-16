@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Normal
   m_EditorClassIdentifier: 
   edgeColor: {r: 0, g: 0, b: 0, a: 1}
-  thickness: 2
+  thickness: 1
   resolutionInvariant: 0
-  useDepth: 1
+  useDepth: 0
   useNormals: 0
   useColor: 1
   minDepthThreshold: 1
   maxDepthThreshold: 10
   minNormalsThreshold: 0.5
   maxNormalsThreshold: 0.75
-  minColorThreshold: 0
-  maxColorThreshold: 0.25
+  minColorThreshold: 0.25
+  maxColorThreshold: 0.3
   renderEvent: 500
   outlineOnly: 0

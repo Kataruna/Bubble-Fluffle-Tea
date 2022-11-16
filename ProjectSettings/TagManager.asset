@@ -5,20 +5,22 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fluid
+  - Unfill
+  - RefillLock
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Hand
   - Water
   - UI
   - Grab Ignore Ray
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Finger
+  - Finger Interactive
+  - Object Interaction
+  - Item
+  - Grabable
+  - ItemChild
   - 
   - 
   - 

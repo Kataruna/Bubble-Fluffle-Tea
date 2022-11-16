@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6575240131139354222}
   - component: {fileID: 3857033402187853353}
   - component: {fileID: 2339508307249145372}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Tea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 6430931956760249621}
   - component: {fileID: 6430931956760249620}
   - component: {fileID: 8003488994689449349}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bubble_Glass_Interactable
   m_TagString: Unfill
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 2652655578683659906}
   - component: {fileID: 7128046529517867011}
   - component: {fileID: 2294522056807823878}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Tube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 5160349329149812213}
   - component: {fileID: 6430931956988288160}
   - component: {fileID: 6430931956988288156}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}

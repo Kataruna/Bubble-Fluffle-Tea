@@ -24,4 +24,10 @@ public class CabinetDoor : MonoBehaviour
             OnOpen.Invoke();
         }
     }
+
+    [ContextMenu("Silly Spawn")]
+    private void SillySpawn()
+    {
+        OnOpen.Invoke();
+    }
 }

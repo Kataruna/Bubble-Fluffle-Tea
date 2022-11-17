@@ -324,6 +324,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1850021161}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &252873795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 912024757338311650, guid: d61938cacf2c2b343b964f6d16656972,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072347459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &348819205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,6 +1477,12 @@ Transform:
   m_Father: {fileID: 1628516346}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &910306550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2388783429680747746, guid: cd35f966d40bb784eb1e854ef6bb4981,
+    type: 3}
+  m_PrefabInstance: {fileID: 911259285}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &911259285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1623,6 +1635,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388783429680747746, guid: cd35f966d40bb784eb1e854ef6bb4981,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2388783429680747748, guid: cd35f966d40bb784eb1e854ef6bb4981,
         type: 3}
@@ -2504,7 +2521,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1561171642}
+      - m_Target: {fileID: 910306550}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -2531,7 +2548,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1561171642}
+      - m_Target: {fileID: 910306550}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -3337,7 +3354,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1266260289}
+      - m_Target: {fileID: 252873795}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -3364,7 +3381,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1266260289}
+      - m_Target: {fileID: 252873795}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6

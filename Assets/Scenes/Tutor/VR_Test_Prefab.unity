@@ -3441,6 +3441,11 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1074797914736713274, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: cooldown
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1195857441950441019, guid: b93274c416ceb244e80c9345545d243e,
         type: 3}
       propertyPath: m_RootOrder
@@ -3523,6 +3528,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4410462035674341226, guid: b93274c416ceb244e80c9345545d243e,
         type: 3}
+      propertyPath: delay
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410462035674341226, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
       propertyPath: OnOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 5920484329902026283, guid: ac4ce4b4419d5ea4da57550b2632c7d9,
@@ -3535,14 +3545,29 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 5227015858490309245, guid: b93274c416ceb244e80c9345545d243e,
         type: 3}
+      propertyPath: cooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227015858490309245, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
       propertyPath: spawnPos
       value: 
       objectReference: {fileID: 520105755}
     - target: {fileID: 5951565113769863627, guid: b93274c416ceb244e80c9345545d243e,
         type: 3}
+      propertyPath: cooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951565113769863627, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
       propertyPath: spawnPos
       value: 
       objectReference: {fileID: 520105755}
+    - target: {fileID: 6109104984767503155, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: delay
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6109104984767503155, guid: b93274c416ceb244e80c9345545d243e,
         type: 3}
       propertyPath: OnOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -3555,6 +3580,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5920484329902026283, guid: ac4ce4b4419d5ea4da57550b2632c7d9,
         type: 3}
+    - target: {fileID: 7342923125469710603, guid: b93274c416ceb244e80c9345545d243e,
+        type: 3}
+      propertyPath: cooldown
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7940950957552552720, guid: b93274c416ceb244e80c9345545d243e,
         type: 3}
       propertyPath: m_InteractionManager

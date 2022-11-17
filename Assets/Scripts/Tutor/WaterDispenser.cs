@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LineCheck : MonoBehaviour
+public class WaterDispenser : MonoBehaviour
 {
     [SerializeField] private string tagToCheck;
     [SerializeField] private float distance;
@@ -14,12 +14,12 @@ public class LineCheck : MonoBehaviour
 
         if (Physics.Raycast(transform.position, -transform.up, out hit, distance))
         {
-            Debug.Log($"Name: {hit.transform.name}");
-            Debug.Log($"Tag: {hit.transform.tag}");
+            // Debug.Log($"Name: {hit.transform.name}");
+            // Debug.Log($"Tag: {hit.transform.tag}");
             
             if (hit.transform.CompareTag(tagToCheck))
             {
-                Debug.Log("Passed");
+                // Debug.Log("Passed");
                 
                 hit.transform.GetComponent<Filler>().Fill();
             }

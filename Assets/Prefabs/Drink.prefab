@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 6430931956760249620}
   - component: {fileID: 8003488994689449349}
   m_Layer: 10
-  m_Name: Bubble_Glass_Interactable
+  m_Name: Drink
   m_TagString: Unfill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -38,6 +38,7 @@ public class PhysicalButton : MonoBehaviour
         return Mathf.Clamp(value, -1f, 1f);
     }
     
+    [ContextMenu("Pressed")]
     private void Pressed()
     {
         _isPressed = true;
@@ -45,6 +46,7 @@ public class PhysicalButton : MonoBehaviour
         Debug.Log("Pressed");
     }
 
+    [ContextMenu("Released")]
     private void Released()
     {
         _isPressed = false;

@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Fluid
   - Unfill
   - RefillLock
+  - Glass
   layers:
   - Default
   - TransparentFX

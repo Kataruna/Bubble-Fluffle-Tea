@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5920484329902026282}
   m_Layer: 0
-  m_Name: Tea
+  m_Name: DrinkPacked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: 2607946568901273634, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
       propertyPath: m_Name
-      value: Bubble_Glass_Interactable
+      value: Drink
       objectReference: {fileID: 0}
     - target: {fileID: 3421215344990057112, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
@@ -128,7 +128,7 @@ PrefabInstance:
     - target: {fileID: 2607946568901273634, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
       propertyPath: m_Name
-      value: Bubble_Glass_Interactable
+      value: Drink
       objectReference: {fileID: 0}
     - target: {fileID: 3421215344990057112, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
@@ -205,7 +205,7 @@ PrefabInstance:
     - target: {fileID: 2607946568901273634, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
       propertyPath: m_Name
-      value: Bubble_Glass_Interactable
+      value: Drink
       objectReference: {fileID: 0}
     - target: {fileID: 3421215344990057112, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
@@ -282,7 +282,7 @@ PrefabInstance:
     - target: {fileID: 2607946568901273634, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
       propertyPath: m_Name
-      value: Bubble_Glass_Interactable
+      value: Drink
       objectReference: {fileID: 0}
     - target: {fileID: 3421215344990057112, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
@@ -359,7 +359,7 @@ PrefabInstance:
     - target: {fileID: 2607946568901273634, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
       propertyPath: m_Name
-      value: Bubble_Glass_Interactable
+      value: Drink
       objectReference: {fileID: 0}
     - target: {fileID: 3421215344990057112, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
@@ -436,7 +436,7 @@ PrefabInstance:
     - target: {fileID: 2607946568901273634, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
       propertyPath: m_Name
-      value: Bubble_Glass_Interactable
+      value: Drink
       objectReference: {fileID: 0}
     - target: {fileID: 3421215344990057112, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
@@ -513,7 +513,7 @@ PrefabInstance:
     - target: {fileID: 2607946568901273634, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
       propertyPath: m_Name
-      value: Bubble_Glass_Interactable
+      value: Drink
       objectReference: {fileID: 0}
     - target: {fileID: 3421215344990057112, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
@@ -590,7 +590,7 @@ PrefabInstance:
     - target: {fileID: 2607946568901273634, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
       propertyPath: m_Name
-      value: Bubble_Glass_Interactable
+      value: Drink
       objectReference: {fileID: 0}
     - target: {fileID: 3421215344990057112, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
@@ -667,7 +667,7 @@ PrefabInstance:
     - target: {fileID: 2607946568901273634, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}
       propertyPath: m_Name
-      value: Bubble_Glass_Interactable
+      value: Drink
       objectReference: {fileID: 0}
     - target: {fileID: 3421215344990057112, guid: bdfb479d081ddc249ab61219f319900a,
         type: 3}

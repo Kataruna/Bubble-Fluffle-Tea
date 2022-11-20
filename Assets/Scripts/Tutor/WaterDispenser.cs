@@ -20,8 +20,16 @@ public class WaterDispenser : MonoBehaviour
             if (hit.transform.CompareTag(tagToCheck))
             {
                 // Debug.Log("Passed");
-                
-                hit.transform.GetComponent<Filler>().Fill();
+                hit.transform.TryGetComponent(out MilkTea milkTea);
+
+                if (milkTea == null || milkTea.CheckIngredient(MilkTeaRecipe.Ingredient.MilkTea))
+                {
+                    Debug.Log("MilkTea Already exist so move on.");
+                    return;
+                }
+
+                milkTea.AddIngredient(MilkTeaRecipe.Ingredient.MilkTea);
+                milkTea.ChangeToFilledTag();
             }
         }
     }

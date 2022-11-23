@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class MilkTea : MonoBehaviour
 {
@@ -20,19 +21,26 @@ public class MilkTea : MonoBehaviour
     [SerializeField] private MilkTeaType milkTeaType;
 
     [SerializeField, Tooltip("ล็อกสถานะของเมนูเอาไว้ไม่ให้เปลี่ยนแปลง หากมีการใส่วัตถุดิบเพิ่มเติมในขณะที่มีวัตถุดิบอื่นอยู่แล้ว")] private bool menuLock;
+    
+    [SerializeField] private XRGrabInteractable grabInteractable;
 
     private Dictionary<string, bool> _milkTeaBaseIngredients = new Dictionary<string, bool>();
     private Dictionary<string, bool> _milkTeaIngredients = new Dictionary<string, bool>();
     private Dictionary<string, GameObject> _milkTeaVisual = new Dictionary<string, GameObject>();
 
-    private bool _menuIsLocked;    
+    private bool _menuIsLocked;
 
     #endregion
 
     #region - Unity Event -
-
-    private void Awake()
+    
+    private void OnEnable()
     {
+        if(grabInteractable == null) grabInteractable = GetComponent<XRGrabInteractable>();
+        
+        grabInteractable.interactionManager = Address.Instance.MembersName[Address.Specify.XRInteractionManager]
+            .GetComponent<XRInteractionManager>();
+        
         foreach (string name in Enum.GetNames(typeof(MilkTeaRecipe.Ingredient)))
         {
             _milkTeaIngredients.Add(name, false);

@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 1348757397951768827}
   - component: {fileID: 6817620877311500097}
   - component: {fileID: 1372483365385157124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Push
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 598647363761007510}
   - component: {fileID: 4586926892251150895}
   - component: {fileID: 3729340693825784409}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tap
   m_TagString: Untagged
   m_Icon: {fileID: 0}

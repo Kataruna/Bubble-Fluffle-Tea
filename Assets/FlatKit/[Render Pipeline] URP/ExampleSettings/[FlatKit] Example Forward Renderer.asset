@@ -30,7 +30,7 @@ MonoBehaviour:
   m_Active: 0
   settings: {fileID: 11400000, guid: ff3dfd77429d64938a26bd54c27dacd8, type: 2}
   _effectMaterial: {fileID: 0}
-  _copyMaterial: {fileID: 0}
+  _blitShader: {fileID: 4800000, guid: e05a9f4f2755f3941a86a256f16c0d82, type: 3}
 --- !u!114 &-1344586528338988631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Active: 0
   settings: {fileID: 11400000, guid: f68defe9b6889484787a8d20c715e802, type: 2}
   _effectMaterial: {fileID: 0}
-  _copyMaterial: {fileID: 0}
+  _blitShader: {fileID: 4800000, guid: e05a9f4f2755f3941a86a256f16c0d82, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,7 +65,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: -1344586528338988631}
   - {fileID: -2401278517541482506}
-  m_RendererFeatureMap: a9319428ad1157edf6cf292be9f1acde
+  - {fileID: 2789357982747514452}
+  m_RendererFeatureMap: a9319428ad1157edf6cf292be9f1acde54d610814ecab526
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -85,7 +86,7 @@ MonoBehaviour:
       type: 3}
     objectMotionVector: {fileID: 4800000, guid: 7b3ede40266cd49a395def176e1bc486,
       type: 3}
-  m_AssetVersion: 1
+  m_AssetVersion: 2
   m_OpaqueLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -102,7 +103,23 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_DepthPrimingMode: 0
+  m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_ClusteredRendering: 0
   m_TileSize: 32
   m_IntermediateTextureMode: 1
+--- !u!114 &2789357982747514452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e1eeeaa7fba944fb8e39c0af65b268, type: 3}
+  m_Name: TranslucentImageBlurSource
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  renderOrder: 0
+  blitMode: 0

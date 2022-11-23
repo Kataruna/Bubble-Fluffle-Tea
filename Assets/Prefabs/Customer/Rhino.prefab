@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793403926904795941}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.905, y: 0.398, z: 0.16400003}
+  m_LocalPosition: {x: -0.905, y: 0.997, z: 0.16400003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40,6 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2797544861461938260}
+  - component: {fileID: -3053622465598798939}
   m_Layer: 0
   m_Name: Rhino
   m_TagString: Untagged
@@ -55,7 +56,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4261454002400510669}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.394, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -63,8 +64,26 @@ Transform:
   - {fileID: 5748388471010394080}
   - {fileID: 5412916536969096481}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3053622465598798939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4261454002400510669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29deeb949677d7740af2a92d1bff7dad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order:
+    drinkIndex: 0
+    wantCroissant: 0
+  spaceIndex: 0
+  holderOne: {fileID: 1193880588717722743}
+  holderTwo: {fileID: 5748388471010394080}
 --- !u!1 &7618942622797383611
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7618942622797383611}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.125, y: 0.398, z: 0.16400003}
+  m_LocalPosition: {x: -0.125, y: 0.997, z: 0.16400003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -132,17 +151,17 @@ PrefabInstance:
     - target: {fileID: 4801854042067335955, guid: cad4a361a8b7b7f4c8d0108f65f55717,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.52
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4801854042067335955, guid: cad4a361a8b7b7f4c8d0108f65f55717,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.02000001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4801854042067335955, guid: cad4a361a8b7b7f4c8d0108f65f55717,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.7199999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4801854042067335955, guid: cad4a361a8b7b7f4c8d0108f65f55717,
         type: 3}

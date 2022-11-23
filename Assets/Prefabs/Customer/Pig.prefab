@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2229039408850784521}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.303, y: 0.32199997, z: 0.07200003}
+  m_LocalPosition: {x: -0.303, y: 0.673, z: 0.07200003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40,6 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1488125591942553856}
+  - component: {fileID: 5800596152382838275}
   m_Layer: 0
   m_Name: Pig
   m_TagString: Untagged
@@ -55,7 +56,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7101232127929534876}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -63,8 +64,26 @@ Transform:
   - {fileID: 200831115938988250}
   - {fileID: 7483524953176998903}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5800596152382838275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101232127929534876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29deeb949677d7740af2a92d1bff7dad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order:
+    drinkIndex: 0
+    wantCroissant: 0
+  spaceIndex: 0
+  holderOne: {fileID: 9148730876866741245}
+  holderTwo: {fileID: 200831115938988250}
 --- !u!1 &8055703604698363891
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8055703604698363891}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.89699996, y: 0.32199997, z: 0.07200003}
+  m_LocalPosition: {x: -0.89699996, y: 0.673, z: 0.07200003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -127,17 +146,17 @@ PrefabInstance:
     - target: {fileID: 1401844071831000856, guid: 67518faee782bbe47af84d65fe683ede,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.62
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1401844071831000856, guid: 67518faee782bbe47af84d65fe683ede,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.030000001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1401844071831000856, guid: 67518faee782bbe47af84d65fe683ede,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1401844071831000856, guid: 67518faee782bbe47af84d65fe683ede,
         type: 3}

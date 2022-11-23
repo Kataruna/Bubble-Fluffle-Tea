@@ -26,6 +26,8 @@ public class FoodSpawner : MonoBehaviour
     private void Spawn()
     {
         _newestOne = Instantiate(spawnedPrefab, transform.position, Quaternion.identity);
+
+        _newestOne.name = spawnedPrefab.name;
         
         bool pass = _newestOne.TryGetComponent(out XRGrabInteractable grabInteractable);
 

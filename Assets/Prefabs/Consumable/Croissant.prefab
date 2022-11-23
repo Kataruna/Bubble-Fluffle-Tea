@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6118524063837346035}
   - component: {fileID: 8290469947547888697}
   - component: {fileID: 4668660964513090405}
-  - component: {fileID: 7130214593424396198}
   - component: {fileID: 2095975946057829311}
+  - component: {fileID: 7130214593424396198}
   m_Layer: 10
   m_Name: Croissant
   m_TagString: Food
@@ -102,6 +102,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2095975946057829311
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7497743573342424556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9635382, y: 0.9354194, z: 0.94462556}
+  m_Center: {x: -0.0003470525, y: 0.16390283, z: 0.013841214}
 --- !u!114 &7130214593424396198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,16 +230,3 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!65 &2095975946057829311
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7497743573342424556}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.9635382, y: 0.9354194, z: 0.94462556}
-  m_Center: {x: -0.0003470525, y: 0.16390283, z: 0.013841214}

@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: MainDrinks
   m_EditorClassIdentifier: 
   recipes:
-  - menuName: Milk Tea
+  - menuSprite: {fileID: 21300000, guid: 90d32fa56c4c42f4fb8c16cd5cd21d8b, type: 3}
+    menuName: Milk Tea
     haveExtraIngredient: 0
     specialIngredients: 
-  - menuName: Boba Milk Tea
+  - menuSprite: {fileID: 21300000, guid: bb99245c04f064e4b9385c8b0815cb8e, type: 3}
+    menuName: Boba Milk Tea
     haveExtraIngredient: 1
     specialIngredients: 02000000
-  - menuName: Bubble Fluffle Milk Tea
+  - menuSprite: {fileID: 21300000, guid: c269ae9caa5ec8b43ba9c97c0c4368de, type: 3}
+    menuName: Bubble Fluffle Milk Tea
     haveExtraIngredient: 1
     specialIngredients: 03000000
   baseIngredients: 0000000001000000

@@ -46,7 +46,7 @@ public class MilkTea : MonoBehaviour
             _milkTeaIngredients.Add(name, false);
             try
             {
-                Debug.Log(transform.Find(name).gameObject);
+                //Debug.Log(transform.Find(name).gameObject);
                 _milkTeaVisual.Add(name, transform.Find(name).gameObject);
             }
             catch (Exception e)

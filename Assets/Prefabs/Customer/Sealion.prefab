@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188794069353907566}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.256, y: 0.773, z: -0.098}
+  m_LocalPosition: {x: -0.268, y: 0.487, z: -0.189}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -55,7 +55,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5902970966670877032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.846, y: 0.773, z: -0.098}
+  m_LocalPosition: {x: 0.254, y: 0.432, z: -0.189}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -111,8 +111,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order:
     drinkIndex: 0
+    drinkName: 
     wantCroissant: 0
+    drinkIsServed: 0
+    croissantIsServed: 0
   spaceIndex: 0
+  canvasGroup: {fileID: 0}
   holderOne: {fileID: 9049448573642409858}
   holderTwo: {fileID: 2015726296281086856}
 --- !u!1001 &7044815605453348401

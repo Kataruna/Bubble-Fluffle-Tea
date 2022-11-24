@@ -14,6 +14,7 @@ public class Customer : MonoBehaviour
 
     public Order order;
     public int spaceIndex = -1;
+    public CanvasGroup canvasGroup;
     
     [SerializeField] private Transform holderOne;
     [SerializeField] private Transform holderTwo;

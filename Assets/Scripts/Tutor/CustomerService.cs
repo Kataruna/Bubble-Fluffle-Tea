@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,7 @@ public class CustomerService : MonoBehaviour
     public SpaceProperties[] SpaceId => space;
     
     [SerializeField] private Transform referencePoint;
+    [SerializeField] private Color alphaWhite = Color.white;
     
     [SerializeField] private SpaceProperties[] space;
     [SerializeField] private CanvasGroup[] ordersDisplay;
@@ -63,10 +65,14 @@ public class CustomerService : MonoBehaviour
         Debug.Log($"change {customer.transform.position} to {space.space.position}");
 
         customer.Move(Customer.Animation.Up, space.space);
+        
+        FeedbacksManager.Instance.CustomersInFeedback.PlayFeedbacks();
 
         customer.order = OrderGenerator.Instance.RandomOrder();
+        customer.canvasGroup = ordersDisplay[index];
         
         DisplayOrder(index, customer.order);
+        
     }
     
     public void OnCustomerExit(Customer customer)
@@ -76,6 +82,8 @@ public class CustomerService : MonoBehaviour
         customer.order = null;
 
         int tempIndex = customer.spaceIndex;
+        
+        customer.canvasGroup = null;
         
         ClearOrderDisplay(tempIndex);
 
@@ -103,6 +111,9 @@ public class CustomerService : MonoBehaviour
     {
         ordersDisplay[index].transform.GetChild(0).GetComponent<Image>().sprite = null;
         ordersDisplay[index].transform.GetChild(1).gameObject.SetActive(false);
+        
+        ordersDisplay[index].transform.GetChild(2).GetComponent<Image>().color = alphaWhite;
+        ordersDisplay[index].transform.GetChild(3).GetComponent<Image>().color = alphaWhite;
     }
 
     IEnumerator CooldownReset(Customer customer)

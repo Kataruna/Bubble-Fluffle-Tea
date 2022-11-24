@@ -28,6 +28,8 @@ public class WaterDispenser : MonoBehaviour
                     return;
                 }
 
+                FeedbacksManager.Instance.TeaFeedback.PlayFeedbacks();
+                
                 milkTea.AddIngredient(MilkTeaRecipe.Ingredient.MilkTea);
                 milkTea.ChangeToFilledTag();
             }

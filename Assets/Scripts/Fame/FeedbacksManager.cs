@@ -37,4 +37,9 @@ public class FeedbacksManager : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+
+    public void PlayItemInteractSound()
+    {
+        ItemInteractFeedback.PlayFeedbacks();
+    }
 }
